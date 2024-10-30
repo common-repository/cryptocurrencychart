@@ -1,0 +1,31 @@
+@font-face {
+   font-family: "spark-dot-line";
+   src: url("../fonts/spark-dot-line.otf");
+   font-style: normal;
+}
+
+.ccc-font-chart {
+   font-family: "spark-dot-line";
+   letter-spacing: 0;
+   -webkit-font-variant-ligatures: contextual;
+   font-variant-ligatures: contextual;
+   -webkit-font-feature-settings: "calt";
+   font-feature-settings: "calt";
+   text-rendering: optimizeLegibility;
+   -webkit-text-size-adjust: none;
+   text-align: left;
+   font-size: 25px;
+}
+
+.price-change {
+   font-size: 80%;
+   padding-left: 5px;
+}
+
+.price-change.red {
+   color: red;
+}
+
+.price-change.green {
+   color: green;
+}
